@@ -1,0 +1,15 @@
+adjust-cursor-thickness = 4
+cursor-style = underline
+cursor-style-blink = false
+font-family = PragmataPro Mono
+font-size = 14
+font-thicken = true
+font-thicken-strength = 1
+shell-integration-features = no-cursor
+theme = light:Tomorrow,dark:Tomorrow Night
+title = Ghostty
+window-height = 40
+window-padding-x = 16
+window-padding-y = 16
+window-theme = auto
+window-width = 80

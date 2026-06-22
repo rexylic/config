@@ -1,0 +1,29 @@
+[[language]]
+name = "html"
+auto-format = false
+indent = { tab-width = 4, unit = "    " }
+
+[[language]]
+name = "mojo"
+file-types = ["mojo"]
+indent = { tab-width = 4, unit = "    " }
+language-servers = ["mojo-lsp-server"]
+
+[language-server.mojo-lsp-server]
+command = "mojo-lsp-server"
+
+[[language]]
+name = "python"
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "ruby"
+auto-format = true
+formatter.args = ["exec", "rubocop", "--stdin", "foo.rb", "-a", "--stderr", "--fail-level", "fatal"]
+formatter.command = "bundle"
+
+[[language]]
+name = "zig"
+auto-format = true
+

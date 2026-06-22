@@ -1,0 +1,64 @@
+[theme]
+light = "papercolor-light"
+dark = "papercolor-dark"
+
+[editor]
+auto-pairs = false
+bufferline = "multiple"
+color-modes = true
+gutters = []
+indent-heuristic = "simple"
+scrolloff = 10
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+character   = "╎"
+render      = true
+skip-levels = 1
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.smart-tab]
+enable = false
+
+[editor.soft-wrap]
+enable         = true
+wrap-indicator = "↪   "
+
+[editor.statusline]
+left   = ["mode", "file-modification-indicator"]
+center = []
+right  = ["position", "file-base-name"]
+
+[keys.normal]
+"X" = "extend_line_above"
+
+[keys.normal."`"]
+"`" = "@o:::<esc>"
+"-" = "@o<ret>--------------------<esc>"
+"l" = "@o::: left<esc>"
+"c" = "@o::: center<esc>"
+"a" = "@o::: attribution<esc>"
+"p" = "@o::: pagebreak<esc>"
+"r" = "@o::: right<esc>"
+"v" = "@o::: vspace<esc>"
+
+[keys.normal."\\"]
+"d" = "@ghf:ddvglms\"gh"
+"t" = "@i| <esc>t:ms*ms*gh"
+"b" = "@ms*ms*"
+"i" = "@ms*"
+"s" = "@ms~ms~"
+
+[keys.select]
+"=" = ":reflow"
+
+[keys.select."\\"]
+"b" = "@ms*ms*"
+"i" = "@ms*"
+"s" = "@ms~ms~"

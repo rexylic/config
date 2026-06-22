@@ -1,0 +1,229 @@
+# Simple, modern, secure file encryption
+brew "age"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Effort free video editing!
+brew "auto-editor"
+# Yet another cross-platform graphical process/system monitor
+brew "bottom"
+# Zstandard is a real-time compression algorithm
+brew "zstd"
+# Command-line tool to manipulate Android App Bundles
+brew "bundletool"
+# Cross-platform make
+brew "cmake"
+# Documentation for CMake
+brew "cmake-docs"
+# Securely send things from one computer to another
+brew "croc"
+# List system USB buses and devices
+brew "cyme"
+# DjVu viewer
+brew "djvulibre"
+# View disk space usage and delete unwanted data, fast
+brew "dua-cli"
+# Easily install prebuilt binaries from GitHub
+brew "eget"
+# Command-line tool to interact with exercism.io
+brew "exercism"
+# Read, write, modify, and display EXIF data on the command-line
+brew "exif"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Identify or delete duplicate files
+brew "fdupes"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Programmer's text editor
+brew "flow-control"
+# Infamous electronic fortune-cookie generator
+brew "fortune"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Git extension for versioning large files
+brew "git-lfs"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Image processing tools collection
+brew "graphicsmagick"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Post-modern modal text editor
+brew "helix"
+# Simple zero-configuration command-line HTTP server
+brew "http-server"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Handy way to save and run project-specific commands
+brew "just"
+# Library for USB device access
+brew "libusb"
+# Powerful, lightweight programming language
+brew "lua"
+# Language Server for the Lua language
+brew "lua-language-server"
+# Just-In-Time Compiler (JIT) for the Lua programming language
+brew "luajit"
+# Unix documentation system
+brew "man-db"
+# Language Server Protocol for Markdown
+brew "marksman"
+# Mac App Store command-line interface
+brew "mas"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Nice to use pager for humans
+brew "moor"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# General purpose programming language in the ML family
+brew "ocaml"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Monitor data's progress through a pipe
+brew "pv"
+# Wrapper around ripgrep that adds multiple rich file types
+brew "ripgrep-all"
+# Extremely fast Python linter, written in Rust
+brew "ruff"
+# Rust toolchain installer
+brew "rustup"
+# Intuitive find & replace CLI
+brew "sd"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
+# HTML Language Server & Templating Language Library
+brew "superhtml"
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+# Services for Typst
+brew "tinymist"
+# Terminal multiplexer
+brew "tmux"
+# CLI tool that moves files or folder to the trash
+brew "trash"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extremely fast Python type checker, written in Rust
+brew "ty"
+# Markup-based typesetting system
+brew "typst"
+# File synchronization tool
+brew "unison"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode
+brew "vscode-langservers-extracted"
+# Internet file retriever
+brew "wget"
+# Utilities to create and convert Web Open Font File (WOFF) files
+brew "woff2"
+# Create and modify subtitles
+cask "aegisub"
+# Cloud storage service
+cask "baidunetdisk"
+# E-books management software
+cask "calibre"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Menu bar display manager: DDC brightness, HiDPI, presets, virtual displays
+cask "crisp"
+# Download and manage your addons and mods
+cask "curseforge"
+# Disk space visualiser
+cask "daisydisk"
+# Voice and text chat software
+cask "discord"
+# DjVu viewer and browser plugin
+cask "djview"
+# Downloads videos from different websites
+cask "downie"
+# Collaborative team software
+cask "figma"
+# Web browser
+cask "firefox"
+# Download manager with a torrent client
+cask "folx"
+cask "font-eb-garamond"
+cask "font-fira-sans-condensed"
+cask "font-libertinus"
+cask "font-libertinus-math"
+cask "font-libertinus-mono"
+cask "font-merriweather"
+cask "font-new-computer-modern"
+cask "font-sarasa-gothic"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Open-source video transcoder
+cask "handbrake-app"
+# Free and open-source media player
+cask "iina"
+# Preview and audit Kindle eBooks
+cask "kindle-previewer"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
+# File system integration
+cask "macfuse"
+# Full TeX Live distribution with GUI applications
+cask "mactex"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
+# Sandbox construction video game
+cask "minecraft"
+# Port of MP3Gain and AACGain
+cask "mp3gain-express"
+# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
+cask "mp3tag"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
+# Converts and edits video, audio or image files
+cask "permute"
+# Tool to download entire purchases simultaneously
+cask "qobuz-downloader"
+# PDF reader and note-taking application
+cask "skim"
+# File sharing network
+cask "soulseek"
+# Video game digital distribution service
+cask "steam"
+# Cloud video conferencing
+cask "tencent-meeting"
+# Unicode keyboard layout editor
+cask "ukelele"
+# Lossless audio decoder
+cask "xld"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "ColorSlurp", id: 1287239339
+mas "Developer", id: 640199958
+mas "Dropover", id: 1355679052
+mas "Keka", id: 470158793
+mas "Keynote", id: 361285480
+mas "MediaInfo", id: 510620098
+mas "Noir", id: 1592917505
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "WeChat", id: 836500024
+mas "WhatsApp", id: 310633997
+mas "WireGuard", id: 1451685025
+cargo "cw"
+cargo "dark-notify"
+cargo "krokiet"

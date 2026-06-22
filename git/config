@@ -1,0 +1,44 @@
+[alias]
+	a = add
+	amend = commit --amend --no-edit
+	b = branch
+	c = commit
+	co = checkout
+	d = diff
+	l = log --oneline --graph --all --decorate
+	s = status --short
+	r = rebase -i --root
+	undo = reset --soft HEAD~1
+
+[core]
+	pager = delta
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[delta]
+	navigate = true
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+[interactive]
+	diffFilter = delta --color-only
+
+[merge]
+	conflictstyle = zdiff3
+
+[push]
+	autoSetupRemote = true
+
+[user]
+	name = rexylic
+	email = i@rexylic.com

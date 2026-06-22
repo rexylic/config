@@ -1,0 +1,9 @@
+{
+  "trustedcasks": [
+    "didriksg/tap/crisp",
+    "yagnikpt/tap/boomtypr"
+  ],
+  "trustedtaps": [
+    "https://github.com/ddalcu/mlx-serve"
+  ]
+}

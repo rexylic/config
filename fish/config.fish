@@ -9,9 +9,11 @@ if status is-interactive
     set HX_CFG ~/.config/helix/config.toml
     set BG (dark-notify -e)
     if [ $BG = dark ]
-        sed -i 1 s/light/dark/ $ALAC_CFG $HX_CFG
+        sed -i 1 s/light/dark/ $HX_CFG
+        sed -i 1 s/.toml/_dark.toml/ $ALAC_CFG
     else
-        sed -i 1 s/dark/light/ $ALAC_CFG $HX_CFG
+        sed -i 1 s/dark/light/ $HX_CFG
+        sed -i 1 s/_dark// $ALAC_CFG
     end
 end
 

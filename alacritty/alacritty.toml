@@ -1,5 +1,5 @@
 [general]
-import = ["~/.config/alacritty-theme/themes/alabaster-light.toml"]
+import = ["~/.config/alacritty-theme/themes/alabaster.toml"]
 
 [font]
 size = 14

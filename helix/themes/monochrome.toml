@@ -1,0 +1,219 @@
+# monochrome.toml
+# A Helix theme that uses ONLY bold and italic — no syntax colors.
+# Three tones: bg (background), fg (foreground), fg_dim (dimmed foreground).
+#
+# Encoding:
+#   plain         → identifiers, default text
+#   bold          → structural keywords, types, control flow
+#   italic        → literals (strings, numbers, constants)
+#   dim plain     → punctuation, operators (visual noise, de-emphasized)
+#   dim italic    → comments
+#   bold + italic → builtins, specials (self, true, false, built-in fns)
+
+# ── Syntax ────────────────────────────────────────────────────────────────────
+
+# Variables
+"variable"                        = "fg"
+"variable.builtin"                = { fg = "fg", modifiers = ["bold", "italic"] }
+"variable.parameter"              = { fg = "fg", modifiers = ["italic"] }
+"variable.other.member"           = "fg"
+
+# Types
+"type"                            = { fg = "fg", modifiers = ["bold"] }
+"type.builtin"                    = { fg = "fg", modifiers = ["bold", "italic"] }
+"type.parameter"                  = { fg = "fg", modifiers = ["bold", "italic"] }
+"type.enum.variant"               = { fg = "fg", modifiers = ["bold"] }
+"constructor"                     = { fg = "fg", modifiers = ["bold"] }
+
+# Constants
+"constant"                        = { fg = "fg", modifiers = ["italic"] }
+"constant.builtin"                = { fg = "fg", modifiers = ["bold", "italic"] }
+"constant.builtin.boolean"        = { fg = "fg", modifiers = ["bold", "italic"] }
+"constant.character"              = { fg = "fg", modifiers = ["italic"] }
+"constant.character.escape"       = { fg = "fg", modifiers = ["bold", "italic"] }
+"constant.numeric"                = { fg = "fg", modifiers = ["italic"] }
+"constant.numeric.integer"        = { fg = "fg", modifiers = ["italic"] }
+"constant.numeric.float"          = { fg = "fg", modifiers = ["italic"] }
+
+# Strings
+"string"                          = { fg = "fg", modifiers = ["italic"] }
+"string.regexp"                   = { fg = "fg", modifiers = ["italic"] }
+"string.special"                  = { fg = "fg", modifiers = ["italic"] }
+"string.special.path"             = { fg = "fg", modifiers = ["italic"] }
+"string.special.url"              = { fg = "fg", modifiers = ["italic"] }
+"string.special.symbol"           = { fg = "fg", modifiers = ["italic"] }
+
+# Comments
+"comment"                         = { fg = "fg_dim", modifiers = ["italic"] }
+"comment.line"                    = { fg = "fg_dim", modifiers = ["italic"] }
+"comment.line.documentation"      = { fg = "fg_dim", modifiers = ["italic"] }
+"comment.block"                   = { fg = "fg_dim", modifiers = ["italic"] }
+"comment.block.documentation"     = { fg = "fg_dim", modifiers = ["italic"] }
+"comment.unused"                  = { fg = "fg_dim", modifiers = ["italic"] }
+
+# Keywords
+"keyword"                         = { fg = "fg", modifiers = ["bold"] }
+"keyword.control"                 = { fg = "fg", modifiers = ["bold"] }
+"keyword.control.conditional"     = { fg = "fg", modifiers = ["bold"] }
+"keyword.control.repeat"          = { fg = "fg", modifiers = ["bold"] }
+"keyword.control.import"          = { fg = "fg", modifiers = ["bold"] }
+"keyword.control.return"          = { fg = "fg", modifiers = ["bold"] }
+"keyword.control.exception"       = { fg = "fg", modifiers = ["bold"] }
+"keyword.operator"                = { fg = "fg", modifiers = ["bold"] }
+"keyword.directive"               = { fg = "fg", modifiers = ["bold"] }
+"keyword.function"                = { fg = "fg", modifiers = ["bold"] }
+"keyword.storage"                 = { fg = "fg", modifiers = ["bold"] }
+"keyword.storage.type"            = { fg = "fg", modifiers = ["bold"] }
+"keyword.storage.modifier"        = { fg = "fg", modifiers = ["bold"] }
+
+# Operators & Punctuation (de-emphasized)
+"operator"                        = "fg_dim"
+"punctuation"                     = "fg_dim"
+"punctuation.delimiter"           = "fg_dim"
+"punctuation.bracket"             = "fg_dim"
+"punctuation.special"             = { fg = "fg_dim", modifiers = ["bold"] }
+
+# Functions
+"function"                        = "fg"
+"function.builtin"                = { fg = "fg", modifiers = ["bold", "italic"] }
+"function.method"                 = "fg"
+"function.macro"                  = { fg = "fg", modifiers = ["bold"] }
+"function.special"                = { fg = "fg", modifiers = ["bold"] }
+
+# Tags (HTML/JSX)
+"tag"                             = { fg = "fg", modifiers = ["bold"] }
+"tag.builtin"                     = { fg = "fg", modifiers = ["bold", "italic"] }
+
+# Namespace / attribute / label
+"namespace"                       = "fg"
+"attribute"                       = { fg = "fg", modifiers = ["italic"] }
+"label"                           = { fg = "fg", modifiers = ["italic"] }
+"special"                         = { fg = "fg", modifiers = ["bold", "italic"] }
+
+# Markup (Markdown, etc.)
+"markup.heading"                  = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.marker"           = "fg_dim"
+"markup.heading.1"                = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.2"                = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.3"                = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.4"                = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.5"                = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.6"                = { fg = "fg", modifiers = ["bold"] }
+"markup.list"                     = "fg"
+"markup.list.unnumbered"          = "fg"
+"markup.list.numbered"            = { fg = "fg", modifiers = ["bold"] }
+"markup.list.checked"             = { fg = "fg_dim", modifiers = ["italic"] }
+"markup.list.unchecked"           = "fg_dim"
+"markup.bold"                     = { fg = "fg", modifiers = ["bold"] }
+"markup.italic"                   = { fg = "fg", modifiers = ["italic"] }
+"markup.strikethrough"            = { fg = "fg_dim", modifiers = ["italic"] }
+"markup.link"                     = { fg = "fg", modifiers = ["italic"] }
+"markup.link.url"                 = { fg = "fg", modifiers = ["italic"] }
+"markup.link.label"               = { fg = "fg", modifiers = ["italic"] }
+"markup.link.text"                = "fg"
+"markup.quote"                    = { fg = "fg_dim", modifiers = ["italic"] }
+"markup.raw"                      = "fg"
+"markup.raw.inline"               = "fg"
+"markup.raw.block"                = "fg"
+
+# Diff
+"diff.plus"                       = { fg = "fg", modifiers = ["bold"] }
+"diff.minus"                      = { fg = "fg_dim", modifiers = ["italic"] }
+"diff.delta"                      = "fg"
+"diff.delta.moved"                = { fg = "fg", modifiers = ["italic"] }
+
+# ── Interface ─────────────────────────────────────────────────────────────────
+
+"ui.background"                   = { fg = "fg", bg = "bg" }
+"ui.background.separator"         = "fg_dim"
+
+"ui.cursor"                       = { fg = "bg", bg = "fg_dim" }
+"ui.cursor.normal"                = { fg = "bg", bg = "fg_dim" }
+"ui.cursor.insert"                = { fg = "bg", bg = "fg_dim" }
+"ui.cursor.select"                = { fg = "bg", bg = "fg_dim" }
+"ui.cursor.match"                 = { fg = "bg", bg = "pink", modifiers = ["bold"] }
+"ui.cursor.primary"               = { fg = "bg", bg = "pink" }
+"ui.cursor.primary.normal"        = { fg = "bg", bg = "pink" }
+"ui.cursor.primary.insert"        = { fg = "bg", bg = "pink" }
+"ui.cursor.primary.select"        = { fg = "bg", bg = "pink" }
+
+"ui.gutter"                       = { fg = "fg_dim", bg = "bg" }
+"ui.gutter.selected"              = { fg = "fg", bg = "bg" }
+"ui.linenr"                       = "fg_dim"
+"ui.linenr.selected"              = { fg = "fg", modifiers = ["bold"] }
+
+"ui.statusline"                   = { fg = "bg", bg = "fg" }
+"ui.statusline.inactive"          = { fg = "bg", bg = "fg_dim" }
+"ui.statusline.normal"            = { fg = "bg", bg = "fg", modifiers = ["bold"] }
+"ui.statusline.insert"            = { fg = "bg", bg = "pink", modifiers = ["bold"] }
+"ui.statusline.select"            = { fg = "bg", bg = "pink", modifiers = ["bold", "italic"] }
+"ui.statusline.separator"         = { fg = "bg", bg = "fg" }
+
+"ui.bufferline"                   = { fg = "fg_dim", bg = "bg" }
+"ui.bufferline.active"            = { fg = "fg", bg = "bg", modifiers = ["bold"] }
+"ui.bufferline.background"        = { bg = "bg" }
+
+"ui.popup"                        = { fg = "fg", bg = "bg" }
+"ui.popup.info"                   = { fg = "fg", bg = "bg" }
+
+"ui.picker.header"                = { fg = "fg", bg = "bg" }
+"ui.picker.header.column"         = { fg = "fg_dim", modifiers = ["bold"] }
+"ui.picker.header.column.active"  = { fg = "fg", modifiers = ["bold"] }
+
+"ui.window"                       = "fg_dim"
+"ui.help"                         = { fg = "fg", bg = "bg" }
+
+"ui.text"                         = "fg"
+"ui.text.focus"                   = { fg = "pink", modifiers = ["bold"] }
+"ui.text.inactive"                = "fg_dim"
+"ui.text.info"                    = { fg = "fg", modifiers = ["italic"] }
+"ui.text.directory"               = { fg = "fg", modifiers = ["bold"] }
+
+"ui.virtual.ruler"                = { bg = "bg" }
+"ui.virtual.whitespace"           = "fg_dim"
+"ui.virtual.indent-guide"         = "fg_dim"
+"ui.virtual.inlay-hint"           = { fg = "fg_dim", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.parameter" = { fg = "fg_dim", modifiers = ["italic"] }
+"ui.virtual.inlay-hint.type"      = { fg = "fg_dim", modifiers = ["italic"] }
+"ui.virtual.wrap"                 = "fg_dim"
+"ui.virtual.jump-label"           = { fg = "pink", modifiers = ["bold", "italic"] }
+
+"ui.menu"                         = { fg = "fg", bg = "bg" }
+"ui.menu.selected"                = { fg = "bg", bg = "pink" }
+"ui.menu.scroll"                  = { fg = "fg_dim", bg = "bg" }
+
+"ui.selection"                    = { fg = "fg", bg = "pink_dim" }
+"ui.selection.primary"            = { fg = "fg", bg = "pink_dim" }
+
+"ui.highlight"                    = { fg = "bg", bg = "fg_dim" }
+"ui.highlight.frameline"          = { fg = "bg", bg = "fg_dim" }
+
+"ui.cursorline.primary"           = { bg = "bg" }
+"ui.cursorline.secondary"         = { bg = "bg" }
+
+# Diagnostics
+"warning"                         = { fg = "fg", modifiers = ["bold"] }
+"error"                           = { fg = "fg", modifiers = ["bold", "italic"] }
+"info"                            = "fg_dim"
+"hint"                            = { fg = "fg_dim", modifiers = ["italic"] }
+"diagnostic"                      = "fg"
+"diagnostic.hint"                 = { modifiers = ["italic"] }
+"diagnostic.info"                 = "fg"
+"diagnostic.warning"              = { modifiers = ["bold"] }
+"diagnostic.error"                = { modifiers = ["bold", "italic"] }
+"diagnostic.unnecessary"          = { fg = "fg_dim", modifiers = ["italic"] }
+"diagnostic.deprecated"           = { fg = "fg_dim", modifiers = ["italic"] }
+
+"tabstop"                         = { fg = "fg", modifiers = ["bold", "italic"] }
+
+"ui.debug.breakpoint"             = { fg = "pink", modifiers = ["bold"] }
+"ui.debug.active"                 = { fg = "pink", modifiers = ["bold", "italic"] }
+
+# ── Palette ───────────────────────────────────────────────────────────────────
+
+[palette]
+bg     = "#1a1a1a"
+fg     = "#d4d4d4"
+fg_dim = "#707070"
+pink   = "#f74f9e"
+pink_dim = "#6b1243"

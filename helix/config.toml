@@ -1,0 +1,69 @@
+theme = "wolf-alabaster-light-bg"
+
+[editor]
+auto-pairs  = false
+bufferline  = "multiple"
+color-modes = true
+cursorline  = true
+line-number = "relative"
+gutters     = ["line-numbers", "spacer"]
+rulers      = [81, 101, 121]
+text-width  = 80
+true-color  = true
+scrolloff   = 10
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+character   = "╎"
+render      = true
+skip-levels = 1
+
+[editor.lsp]
+display-progress-messages = true
+
+[editor.smart-tab]
+enable = false
+
+[editor.soft-wrap]
+enable         = true
+wrap-indicator = "↪   "
+
+[editor.statusline]
+left   = ["mode", "file-modification-indicator"]
+center = []
+right  = ["file-name"]
+
+[keys.normal]
+"x" = "@ghvgl"
+"X" = "@vgl"
+"ret" = "extend_line_below"
+"C-ret" = "extend_line_above"
+"backspace" = "@<ret>d"
+
+[keys.normal."`"]
+"`" = "@o:::<esc>"
+"-" = "@o<ret>--------------------<esc>"
+"l" = "@o::: left<esc>"
+"c" = "@o::: center<esc>"
+"a" = "@o::: attribution<esc>"
+"p" = "@o::: pagebreak<esc>"
+"r" = "@o::: right<esc>"
+"v" = "@o::: vspace<esc>"
+
+[keys.normal."\\"]
+"d" = "@ghf:ddvglms\"gh"
+"t" = "@i| <esc>t:ms*ms*gh"
+"b" = "@ms*ms*"
+"i" = "@ms*"
+"s" = "@ms~ms~"
+
+[keys.select]
+"=" = ":reflow"
+
+[keys.select."\\"]
+"b" = "@ms*ms*"
+"i" = "@ms*"
+"s" = "@ms~ms~"

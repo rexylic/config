@@ -1,0 +1,21 @@
+[general]
+import = ["~/.config/alacritty-theme/themes/alabaster-light.toml"]
+
+[font]
+size = 14
+builtin_box_drawing = false
+normal      = { family = "PragmataPro Mono", style = "Regular" }
+italic      = { family = "PragmataPro Mono", style = "Italic" }
+bold        = { family = "PragmataPro Mono", style = "Bold" }
+bold_italic = { family = "PragmataPro Mono", style = "Bold Italic" }
+
+[window]
+dimensions      = { columns = 90, lines = 40 }
+dynamic_padding = true
+option_as_alt   = "OnlyLeft"
+padding         = { x = 12, y = 12 }
+
+[[keyboard.bindings]]
+mods = "Command"
+key = "N"
+action = "SpawnNewInstance"

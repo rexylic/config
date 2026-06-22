@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/rexylic/nvim-config.git
+[submodule "alacritty-theme"]
+	path = alacritty-theme
+	url = https://github.com/alacritty/alacritty-theme.git

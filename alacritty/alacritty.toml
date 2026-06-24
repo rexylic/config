@@ -1,5 +1,5 @@
 [general]
-import = ["dark.toml"]
+import = ["light.toml"]
 
 [font]
 size = 14

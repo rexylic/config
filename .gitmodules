@@ -4,6 +4,3 @@
 [submodule "mpv/modern-z"]
 	path = mpv/modern-z
 	url = https://github.com/Samillion/ModernZ.git
-[submodule "alacritty/themes"]
-	path = alacritty/themes
-	url = https://github.com/alacritty/alacritty-theme.git

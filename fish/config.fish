@@ -13,7 +13,7 @@ if status is-interactive
         sed -i 1 s/.toml/_dark.toml/ $ALAC_CFG
     else
         sed -i 1 s/dark/light/ $HX_CFG
-        sed -i 1 s/_dark// $ALAC_CFG
+        sed -i 1 s/_dark.toml/.toml/ $ALAC_CFG
     end
 end
 

@@ -1,4 +1,4 @@
-theme = "wolf-alabaster-light-bg"
+theme = "wolf-alabaster-dark-bg"
 
 [editor]
 auto-pairs  = false

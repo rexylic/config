@@ -1,9 +1,9 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/rexylic/nvim-config.git
-[submodule "alacritty-theme"]
-	path = alacritty-theme
-	url = https://github.com/alacritty/alacritty-theme.git
 [submodule "mpv/modern-z"]
 	path = mpv/modern-z
 	url = https://github.com/Samillion/ModernZ.git
+[submodule "alacritty/themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git

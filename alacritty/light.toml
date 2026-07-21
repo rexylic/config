@@ -1,30 +1,28 @@
-# Colors (Alabaster)
-# author tonsky
+# Colors (Everforest Light Medium)
 
+# Default colors
 [colors.primary]
-background = '#F7F7F7'
-foreground = '#434343'
+background = '#fdf6e3'
+foreground = '#5c6a72'
 
-[colors.cursor]
-text = '#F7F7F7'
-cursor = '#434343'
-
+# Normal colors
 [colors.normal]
-black = '#000000'
-red = '#AA3731'
-green = '#448C27'
-yellow = '#CB9000'
-blue = '#325CC0'
-magenta = '#7A3E9D'
-cyan = '#0083B2'
-white = '#BBBBBB'
+black   = '#5c6a72'
+red     = '#f85552'
+green   = '#8da101'
+yellow  = '#dfa000'
+blue    = '#3a94c5'
+magenta = '#df69ba'
+cyan    = '#35a77c'
+white   = '#e0dcc7'
 
+# Bright Colors
 [colors.bright]
-black = '#777777'
-red = '#F05050'
-green = '#60CB00'
-yellow = '#FFBC5D'
-blue = '#007ACC'
-magenta = '#E64CE6'
-cyan = '#00AACB'
-white = '#FFFFFF'
+black   = '#5c6a72'
+red     = '#f85552'
+green   = '#8da101'
+yellow  = '#dfa000'
+blue    = '#3a94c5'
+magenta = '#df69ba'
+cyan    = '#35a77c'
+white   = '#e0dcc7'

@@ -1,83 +1,157 @@
+# Simple, modern, secure file encryption
 brew "age"
+# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Effort free video editing!
 brew "auto-editor"
+# Zstandard is a real-time compression algorithm
 brew "zstd"
+# Command-line tool to manipulate Android App Bundles
 brew "bundletool"
+# Cross-platform make
 brew "cmake"
+# Documentation for CMake
 brew "cmake-docs"
+# Securely send things from one computer to another
+brew "croc"
+# List system USB buses and devices
+brew "cyme"
+# DjVu viewer
 brew "djvulibre"
+# View disk space usage and delete unwanted data, fast
+brew "dua-cli"
+# Easily install prebuilt binaries from GitHub
+brew "eget"
+# Read, write, modify, and display EXIF data on the command-line
 brew "exif"
+# Modern, maintained replacement for ls
 brew "eza"
-brew "fcp"
+# Simple, fast and user-friendly alternative to find
 brew "fd"
+# Identify or delete duplicate files
 brew "fdupes"
+# User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Infamous electronic fortune-cookie generator
 brew "fortune"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
 brew "gh"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# Git extension for versioning large files
 brew "git-lfs"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
+# Image processing tools collection
 brew "graphicsmagick"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Post-modern modal text editor
 brew "helix"
+# Simple zero-configuration command-line HTTP server
 brew "http-server"
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# Handy way to save and run project-specific commands
+brew "just"
+# Library for USB device access
 brew "libusb"
+# Powerful, lightweight programming language
 brew "lua"
+# Language Server for the Lua language
 brew "lua-language-server"
+# Just-In-Time Compiler (JIT) for the Lua programming language
 brew "luajit"
+# Unix documentation system
 brew "man-db"
+# Language Server Protocol for Markdown
 brew "marksman"
+# Mac App Store command-line interface
 brew "mas"
-brew "matcha"
+# Nice to use pager for humans
 brew "moor"
+# Media player based on MPlayer and mplayer2
 brew "mpv"
-brew "neovim"
+# General purpose programming language in the ML family
 brew "ocaml"
+# Adds an OCR text layer to scanned PDF files
 brew "ocrmypdf"
-brew "pandoc"
-brew "protobuf"
-brew "pv"
-brew "rad"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Monitor data's progress through a pipe
+brew "pv"
+# Wrapper around ripgrep that adds multiple rich file types
 brew "ripgrep-all"
-brew "ruff"
+# Rust toolchain installer
 brew "rustup"
+# Intuitive find & replace CLI
 brew "sd"
+# 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
-brew "shellcheck"
+# HTML Language Server & Templating Language Library
 brew "superhtml"
+# Very fast implementation of tldr in Rust
 brew "tealdeer"
+# Services for Typst
 brew "tinymist"
+# Terminal multiplexer
 brew "tmux"
+# CLI tool that moves files or folder to the trash
 brew "trash"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
-brew "ty"
+# Markup-based typesetting system
 brew "typst"
+# File synchronization tool
 brew "unison"
-brew "uv"
+# Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode
 brew "vscode-langservers-extracted"
-brew "w3m"
+# Internet file retriever
 brew "wget"
-brew "wireguard-tools"
+# Utilities to create and convert Web Open Font File (WOFF) files
 brew "woff2"
+# Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Programming language designed for robustness, optimality, and clarity
 brew "zig"
+# Language Server for Zig
 brew "zls"
+# GPU-accelerated terminal emulator
 cask "alacritty"
+# Secure, peer-to-peer file transfer app
 cask "altersend"
+# Command-line tools for building and debugging Android apps
 cask "android-commandlinetools"
+# Android SDK component
 cask "android-platform-tools"
+# Cloud storage service
 cask "baidunetdisk"
+# E-books management software
 cask "calibre"
+# Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# Voice and text chat software
 cask "discord"
+# DjVu viewer and browser plugin
 cask "djview"
+# Downloads videos from different websites
 cask "downie"
+# Collaborative team software
 cask "figma"
+# Web browser
 cask "firefox"
+# Download manager with a torrent client
 cask "folx"
-cask "font-courier-prime"
 cask "font-eb-garamond"
 cask "font-fira-sans-condensed"
 cask "font-libertinus"
@@ -86,34 +160,54 @@ cask "font-libertinus-mono"
 cask "font-merriweather"
 cask "font-new-computer-modern"
 cask "font-sarasa-gothic"
+# Web browser
 cask "google-chrome"
+# Free and open-source media player
 cask "iina"
-cask "jettison"
+# Preview and audit Kindle eBooks
 cask "kindle-previewer"
+# Multiplayer online battle arena game
+cask "league-of-legends"
+# Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# File system integration
 cask "macfuse"
+# Full TeX Live distribution with GUI applications
 cask "mactex"
+# Port of MP3Gain and AACGain
 cask "mp3gain-express"
+# Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
 cask "mp3tag"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Android file transfer
 cask "openmtp"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
+# Converts and edits video, audio or image files
 cask "permute"
+# Tool to download entire purchases simultaneously
 cask "qobuz-downloader"
+# PDF reader and note-taking application
 cask "skim"
+# File sharing network
 cask "soulseek"
+# Video game digital distribution service
 cask "steam"
+# Cloud video conferencing
 cask "tencent-meeting"
+# Unicode keyboard layout editor
 cask "ukelele"
-cask "visual-studio-code"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
+# Lossless audio decoder
 cask "xld"
+# Video communication and virtual meeting platform
 cask "zoom"
 mas "ColorSlurp", id: 1287239339
-mas "DaisyDisk", id: 411643860
 mas "Developer", id: 640199958
 mas "Dropover", id: 1355679052
 mas "HEIC Converter", id: 1294126402
-mas "iMovie", id: 408981434
 mas "Keka", id: 470158793
 mas "Keynote", id: 361285480
 mas "MediaInfo", id: 510620098
@@ -124,25 +218,16 @@ mas "Pixelmator Pro", id: 1289583905
 mas "WeChat", id: 836500024
 mas "WhatsApp", id: 310633997
 mas "WireGuard", id: 1451685025
-vscode "monokai.theme-monokai-pro-vscode"
+vscode "anthropic.claude-code"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
 vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
 vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode.live-server"
-vscode "ms-vscode.remote-explorer"
-vscode "myriad-dreamin.tinymist"
-vscode "nicolaiverbaarschot.alabaster-variant-theme"
-vscode "redhat.vscode-yaml"
-vscode "tamasfe.even-better-toml"
-vscode "unifiedjs.vscode-mdx"
-vscode "vadimcn.vscode-lldb"
+vscode "ziglang.vscode-zig"
 cargo "dark-notify"
+cargo "fyn"
 cargo "krokiet"

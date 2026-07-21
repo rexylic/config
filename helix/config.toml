@@ -1,4 +1,4 @@
-theme = "wolf-alabaster-light-bg"
+theme = "everforest_light"
 
 [editor]
 auto-pairs  = false
@@ -34,7 +34,7 @@ wrap-indicator = "↪   "
 [editor.statusline]
 left   = ["mode", "file-modification-indicator"]
 center = []
-right  = ["position", "position-percentage", "file-name"]
+right  = ["position", "file-base-name"]
 
 [keys.normal]
 "x" = "@ghvgl"

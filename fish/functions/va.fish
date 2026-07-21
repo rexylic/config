@@ -1,4 +1,4 @@
-function va --description 'Activate venv from .venv or ~/.venv'
+function va --description 'Activate venv'
     for dir in .venv ~/.venv
         if test -f $dir/bin/activate.fish
             source $dir/bin/activate.fish

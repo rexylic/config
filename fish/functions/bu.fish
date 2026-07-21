@@ -1,9 +1,3 @@
-function bu --description "Backup source to destination, merging paths"
-    rsync \
-        --archive \
-        --human-readable \
-        --partial \
-        --progress \
-        --one-file-system \
-        $argv
+function bu -d "Backup source to destination, merging paths" -w rsync
+    rsync -ahLPx $argv
 end

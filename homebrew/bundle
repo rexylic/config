@@ -32,6 +32,8 @@ brew "fd"
 brew "fdupes"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Programmer's text editor
+brew "flow-control"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Command-line fuzzy finder written in Go
@@ -124,10 +126,6 @@ brew "yazi"
 brew "zig"
 # Language Server for Zig
 brew "zls"
-# GPU-accelerated terminal emulator
-cask "alacritty"
-# Secure, peer-to-peer file transfer app
-cask "altersend"
 # Command-line tools for building and debugging Android apps
 cask "android-commandlinetools"
 # Android SDK component
@@ -140,6 +138,8 @@ cask "calibre"
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Disk space visualiser
+cask "daisydisk"
 # Voice and text chat software
 cask "discord"
 # DjVu viewer and browser plugin
@@ -160,6 +160,8 @@ cask "font-libertinus-mono"
 cask "font-merriweather"
 cask "font-new-computer-modern"
 cask "font-sarasa-gothic"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
@@ -202,19 +204,19 @@ cask "ukelele"
 cask "vscodium"
 # Lossless audio decoder
 cask "xld"
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Dropover", id: 1355679052
-mas "HEIC Converter", id: 1294126402
 mas "Keka", id: 470158793
 mas "Keynote", id: 361285480
 mas "MediaInfo", id: 510620098
 mas "Noir", id: 1592917505
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
-mas "Pixelmator Pro", id: 1289583905
 mas "WeChat", id: 836500024
 mas "WhatsApp", id: 310633997
 mas "WireGuard", id: 1451685025

@@ -1,3 +1,7 @@
 [[language]]
 name = "html"
 auto-format = false
+
+[[language]]
+name = "zig"
+auto-format = true

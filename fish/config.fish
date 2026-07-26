@@ -22,12 +22,14 @@ if status is-interactive
     set tide_character_icon '$'
 
     # Autoswitch light and dark mode
-    set ALAC_CFG ~/.config/alacritty/alacritty.toml
+    # set ALAC_CFG ~/.config/alacritty/alacritty.toml
     set HX_CFG ~/.config/helix/config.toml
     set BG (dark-notify -e)
     if [ $BG = dark ]
-        sed -i 1 s/light/dark/ $HX_CFG $ALAC_CFG
+        # sed -i 1 s/light/dark/ $HX_CFG $ALAC_CFG
+        sed -i 1 s/latte/mocha/ $HX_CFG
     else
-        sed -i 1 s/dark/light/ $HX_CFG $ALAC_CFG
+        # sed -i 1 s/dark/light/ $HX_CFG $ALAC_CFG
+        sed -i 1 s/mocha/latte/ $HX_CFG
     end
 end

@@ -1,0 +1,7 @@
+[mgr]
+sort_by = "alphabetical"
+sort_sensitive = true
+sort_dir_first = true
+
+[preview]
+tab_size = 2

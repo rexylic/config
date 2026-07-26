@@ -1,4 +1,4 @@
-theme = "wolf-alabaster-light-bg"
+theme = "catppuccin_latte"
 
 [editor]
 auto-pairs  = false

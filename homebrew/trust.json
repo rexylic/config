@@ -1,5 +1,8 @@
 {
   "trustedcasks": [
     "yagnikpt/tap/boomtypr"
+  ],
+  "trustedtaps": [
+    "https://github.com/ddalcu/mlx-serve"
   ]
 }

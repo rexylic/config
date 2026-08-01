@@ -27,9 +27,9 @@ if status is-interactive
     set BG (dark-notify -e)
     if [ $BG = dark ]
         # sed -i 1 s/light/dark/ $HX_CFG $ALAC_CFG
-        sed -i 1 s/latte/mocha/ $HX_CFG
+        sed -i 1 s/light/dark/ $HX_CFG
     else
         # sed -i 1 s/dark/light/ $HX_CFG $ALAC_CFG
-        sed -i 1 s/mocha/latte/ $HX_CFG
+        sed -i 1 s/dark/light/ $HX_CFG
     end
 end

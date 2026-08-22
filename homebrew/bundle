@@ -121,6 +121,8 @@ brew "ty"
 brew "typst"
 # File synchronization tool
 brew "unison"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode
 brew "vscode-langservers-extracted"
 # Internet file retriever
@@ -135,10 +137,6 @@ brew "zig"
 brew "zls"
 # Create and modify subtitles
 cask "aegisub"
-# Command-line tools for building and debugging Android apps
-cask "android-commandlinetools"
-# Android SDK component
-cask "android-platform-tools"
 # Cloud storage service
 cask "baidunetdisk"
 # E-books management software
@@ -175,8 +173,6 @@ cask "handbrake-app"
 cask "iina"
 # Preview and audit Kindle eBooks
 cask "kindle-previewer"
-# Multiplayer online battle arena game
-cask "league-of-legends"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
 # File system integration
@@ -185,16 +181,12 @@ cask "macfuse"
 cask "mactex"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# Native LLM server for Apple Silicon with OpenAI & Anthropic compatible APIs
-cask "ddalcu/mlx-serve/mlx-core"
 # Port of MP3Gain and AACGain
 cask "mp3gain-express"
 # Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
 cask "mp3tag"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Android file transfer
-cask "openmtp"
 # Utility to uninstall apps and remove leftover files from old/uninstalled apps
 cask "pearcleaner"
 # Converts and edits video, audio or image files
@@ -207,6 +199,8 @@ cask "skim"
 cask "soulseek"
 # Video game digital distribution service
 cask "steam"
+# Open-source media center
+cask "stremio"
 # Cloud video conferencing
 cask "tencent-meeting"
 # Unicode keyboard layout editor
@@ -228,6 +222,7 @@ mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 mas "WeChat", id: 836500024
 mas "WhatsApp", id: 310633997
+mas "Windows App", id: 1295203466
 mas "WireGuard", id: 1451685025
 vscode "anthropic.claude-code"
 vscode "formulahendry.code-runner"
@@ -245,5 +240,4 @@ vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode.wasm-wasi-core"
 vscode "ziglang.vscode-zig"
 cargo "dark-notify"
-cargo "fyn"
 cargo "krokiet"

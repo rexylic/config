@@ -1,4 +1,4 @@
-theme = "atom_one_dark"
+theme = "atom_one_light"
 
 [editor]
 auto-pairs  = false

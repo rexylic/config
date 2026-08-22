@@ -5,7 +5,6 @@ font-family = PragmataPro Mono
 font-thicken = true
 font-thicken-strength = 1
 font-size = 14
-macos-icon = chalkboard
 shell-integration-features = no-cursor
 theme = light:Atom One Light,dark:Atom One Dark
 title = Ghostty

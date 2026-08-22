@@ -1,5 +1,5 @@
 function va --description 'Activate venv'
-    for dir in .venv ~/.venv
+    for dir in .venv ~/Code/env/py
         if test -f $dir/bin/activate.fish
             source $dir/bin/activate.fish
             return 0

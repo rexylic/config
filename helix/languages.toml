@@ -3,5 +3,16 @@ name = "html"
 auto-format = false
 
 [[language]]
+name = "python"
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[[language]]
+name = "ruby"
+formatter = { command = "bundle", args = ["exec", "rubocop", "--stdin", "foo.rb", "-a", "--stderr", "--fail-level", "fatal"] }
+auto-format = true
+
+[[language]]
 name = "zig"
 auto-format = true
+

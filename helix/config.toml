@@ -1,15 +1,15 @@
 [theme]
 light = "wolf-alabaster-light"
-dark = "wolf-alabaster-dark"
+dark  = "wolf-alabaster-dark"
 
 [editor]
-auto-pairs = false
-bufferline = "multiple"
-color-modes = true
-gutters = []
+auto-pairs       = false
+bufferline       = "multiple"
+color-modes      = true
+gutters          = []
 indent-heuristic = "simple"
-scrolloff = 10
-true-color = true
+scrolloff        = 10
+true-color       = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -36,29 +36,29 @@ center = []
 right  = ["position", "file-base-name"]
 
 [keys.normal]
-"X" = "extend_line_above"
+'X' = "extend_line_above"
 
-[keys.normal."`"]
-"`" = "@o:::<esc>"
-"-" = "@o<ret>--------------------<esc>"
-"l" = "@o::: left<esc>"
-"c" = "@o::: center<esc>"
-"a" = "@o::: attribution<esc>"
-"p" = "@o::: pagebreak<esc>"
-"r" = "@o::: right<esc>"
-"v" = "@o::: vspace<esc>"
+[keys.normal.'`']
+'`' = "@o:::<esc>"
+'-' = "@o<ret>--------------------<esc>"
+'l' = "@o::: left<esc>"
+'c' = "@o::: center<esc>"
+'a' = "@o::: attribution<esc>"
+'p' = "@o::: pagebreak<esc>"
+'r' = "@o::: right<esc>"
+'v' = "@o::: vspace<esc>"
 
 [keys.normal."\\"]
-"d" = "@ghf:ddvglms\"gh"
-"t" = "@i| <esc>t:ms*ms*gh"
-"b" = "@ms*ms*"
-"i" = "@ms*"
-"s" = "@ms~ms~"
+'d' = "@ghf:ddvglms\"gh"
+'t' = "@i| <esc>t:ms*ms*gh"
+'b' = "@ms*ms*"
+'i' = "@ms*"
+'s' = "@ms~ms~"
 
 [keys.select]
-"=" = ":reflow"
+'=' = ":reflow"
 
 [keys.select."\\"]
-"b" = "@ms*ms*"
-"i" = "@ms*"
-"s" = "@ms~ms~"
+'b' = "@ms*ms*"
+'i' = "@ms*"
+'s' = "@ms~ms~"

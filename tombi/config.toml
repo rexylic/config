@@ -1,0 +1,5 @@
+[format.rules]
+key-quote-style                 = "single"
+key-value-equals-sign-alignment = true
+trailing-comment-alignment      = true
+trailing-comment-space-width    = 1

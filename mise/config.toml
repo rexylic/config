@@ -1,54 +1,67 @@
-[tools]
-age                = "latest"
-'aqua:walles/moor' = "latest"
-cargo-binstall     = "latest"
-'cargo:krokiet'    = "latest"
-dua                = "latest"
-eza                = "latest"
-fd                 = "latest"
-fzf                = "latest"
-go                 = "latest"
-rg                 = "latest"
-ruby               = "latest"
-rust               = "stable"
-tombi              = "latest"
-uv                 = "latest"
-yazi               = "latest"
-zig                = "latest"
-zoxide             = "latest"
-
-[bootstrap.brew]
-adopt = true
-
 [bootstrap.packages]
-'brew:fortune'        = "latest"
-'brew:mpv'            = "latest"
-'brew-cask:calibre'   = "latest"
-'brew-cask:crisp'     = "latest"
+'brew:fortune' = "latest"
+'brew:mpv' = "latest"
+'brew:poppler' = "latest"
+'brew:sevenzip' = "latest"
+'brew-cask:calibre' = "latest"
+'brew-cask:crisp' = "latest"
 'brew-cask:daisydisk' = "latest"
-'brew-cask:discord'   = "latest"
-'brew-cask:firefox'   = "latest"
-'brew-cask:ghostty'   = "latest"
-'brew-cask:iina'      = "latest"
+'brew-cask:discord' = "latest"
+'brew-cask:firefox' = "latest"
+'brew-cask:ghostty' = "latest"
+'brew-cask:iina' = "latest"
 'brew-cask:localsend' = "latest"
-'brew-cask:skim'      = "latest"
-'brew-cask:soulseek'  = "latest"
-'brew-cask:steam'     = "latest"
-'brew-cask:ukelele'   = "latest"
-'brew-cask:vscodium'  = "latest"
-'brew-cask:xld'       = "latest"
-'mas:1287239339'      = "latest" # ColorSlurp
-'mas:640199958'       = "latest" # Developer
-'mas:1355679052'      = "latest" # Dropover
-'mas:470158793'       = "latest" # Keka
-'mas:361285480'       = "latest" # Keynote
-'mas:510620098'       = "latest" # MediaInfo
-'mas:1592917505'      = "latest" # Noir
-'mas:361304891'       = "latest" # Numbers
-'mas:361309726'       = "latest" # Pages
-'mas:836500024'       = "latest" # WeChat
-'mas:310633997'       = "latest" # WhatsApp
-'mas:1451685025'      = "latest" # WireGuard
+'brew-cask:skim' = "latest"
+'brew-cask:soulseek' = "latest"
+'brew-cask:steam' = "latest"
+'brew-cask:ukelele' = "latest"
+'brew-cask:vscodium' = "latest"
+'brew-cask:xld' = "latest"
+'mas:1287239339' = "latest"      # ColorSlurp
+'mas:640199958' = "latest"       # Developer
+'mas:1355679052' = "latest"      # Dropover
+'mas:470158793' = "latest"       # Keka
+'mas:361285480' = "latest"       # Keynote
+'mas:510620098' = "latest"       # MediaInfo
+'mas:1592917505' = "latest"      # Noir
+'mas:361304891' = "latest"       # Numbers
+'mas:361309726' = "latest"       # Pages
+'mas:836500024' = "latest"       # WeChat
+'mas:310633997' = "latest"       # WhatsApp
+'mas:1451685025' = "latest"      # WireGuard
+
+[bootstrap.user]
+login_shell = "/usr/local/bin/fish"
 
 [env]
 GOPATH = "{{env.HOME}}/Code/env/go"
+HELIX_RUNTIME = "{{env.HOME}}/Code/rs/helix/runtime/"
+
+[tools]
+age = "latest"
+'aqua:walles/moor' = "latest"
+cargo-binstall = "latest"
+'cargo:krokiet' = "latest"
+"cargo:yazi-fm" = "latest"
+delta = "latest"
+dua = "latest"
+eza = "latest"
+fd = "latest"
+ffmpeg = "latest"
+fzf = "latest"
+gh = "latest"
+go = "latest"
+imagemagick = "latest"
+jq = "latest"
+mas = "latest"
+rg = "latest"
+ruby = "latest"
+rust = "stable"
+tealdeer = "latest"
+tinymist = "latest"
+tombi = "latest"
+typst = "latest"
+uv = "latest"
+yazi = "latest"
+zig = "latest"
+zoxide = "latest"

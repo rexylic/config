@@ -1,6 +1,6 @@
 [theme]
-light = "papercolor-light"
-dark = "papercolor-dark"
+light = "wolf-alabaster-light"
+dark = "wolf-alabaster-dark"
 
 [editor]
 auto-pairs = false

@@ -9,8 +9,9 @@ file-types = ["mojo"]
 indent = { tab-width = 4, unit = "    " }
 language-servers = ["mojo-lsp-server"]
 
-[language-server.mojo-lsp-server]
-command = "mojo-lsp-server"
+[[language]]
+name = "odin"
+indent = { tab-width = 4, unit = "\t" }
 
 [[language]]
 name = "python"
@@ -26,4 +27,7 @@ formatter.command = "bundle"
 [[language]]
 name = "zig"
 auto-format = true
+
+[language-server.mojo-lsp-server]
+command = "mojo-lsp-server"
 

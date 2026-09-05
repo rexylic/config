@@ -54,8 +54,6 @@ brew "gradle"
 brew "graphicsmagick"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# Post-modern modal text editor
-brew "helix"
 # Simple zero-configuration command-line HTTP server
 brew "http-server"
 # Tools and libraries to manipulate images in select formats
@@ -114,8 +112,6 @@ brew "superhtml"
 brew "tealdeer"
 # Services for Typst
 brew "tinymist"
-# Terminal multiplexer
-brew "tmux"
 # CLI tool that moves files or folder to the trash
 brew "trash"
 # Display directories as trees (with optional color/HTML output)
@@ -134,6 +130,10 @@ brew "vscode-langservers-extracted"
 brew "wget"
 # Utilities to create and convert Web Open Font File (WOFF) files
 brew "woff2"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Language Server for Zig
+brew "zls"
 # Create and modify subtitles
 cask "aegisub"
 # Cloud storage service
@@ -167,7 +167,6 @@ cask "font-libertinus-math"
 cask "font-libertinus-mono"
 cask "font-merriweather"
 cask "font-new-computer-modern"
-cask "font-sarasa-gothic"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Open-source video transcoder
@@ -190,6 +189,8 @@ cask "minecraft"
 cask "mp3gain-express"
 # Tool for editing metadata of audio files including MP3, FLAC, OGG, and more
 cask "mp3tag"
+# Lightweight code editor
+cask "notepadexe"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Utility to uninstall apps and remove leftover files from old/uninstalled apps
@@ -208,6 +209,8 @@ cask "steam"
 cask "tencent-meeting"
 # Unicode keyboard layout editor
 cask "ukelele"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
 # Lossless audio decoder
 cask "xld"
 # Video communication and virtual meeting platform
@@ -224,6 +227,10 @@ mas "Pages", id: 361309726
 mas "WeChat", id: 836500024
 mas "WhatsApp", id: 310633997
 mas "WireGuard", id: 1451685025
+vscode "lao-liang.vscode-theme-alabaster-dark"
+vscode "tonsky.theme-alabaster"
+vscode "ziglang.vscode-zig"
 cargo "cw"
 cargo "dark-notify"
+cargo "helix-term"
 cargo "krokiet"

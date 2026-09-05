@@ -2,11 +2,11 @@
 deps = []
 
 [[flavor.deps]]
-use = "Mintass/rose-pine-dawn"
-rev = "d82f54f"
-hash = "15ae5f83d3770b9ffc276af77f642e2b"
+use = "hankertrix/bluloco-yazi:bluloco-light"
+rev = "e04105a"
+hash = "644dce0654f66f8389900c138bfdbf28"
 
 [[flavor.deps]]
-use = "Mintass/rose-pine-moon"
-rev = "94385fe"
-hash = "edbe0dfb5db8ff37281dba62adc7e750"
+use = "hankertrix/bluloco-yazi:bluloco-dark"
+rev = "e04105a"
+hash = "883fc8dff11288d1666dda1ca7d22fde"

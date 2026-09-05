@@ -48,6 +48,8 @@ brew "gh"
 brew "git-delta"
 # Git extension for versioning large files
 brew "git-lfs"
+# Library for USB device access
+brew "libusb"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Image processing tools collection
@@ -58,10 +60,10 @@ brew "graphviz"
 brew "http-server"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
-# Library for USB device access
-brew "libusb"
 # Powerful, lightweight programming language
 brew "lua"
 # Language Server for the Lua language
@@ -92,6 +94,8 @@ brew "ripgrep"
 brew "opencode"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Monitor data's progress through a pipe
@@ -134,6 +138,8 @@ brew "woff2"
 brew "yazi"
 # Language Server for Zig
 brew "zls"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Create and modify subtitles
 cask "aegisub"
 # Cloud storage service

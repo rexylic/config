@@ -1,24 +1,18 @@
 [alias]
-	a = add
-	amend = commit --amend --no-edit
-	b = branch
-	c = commit
-	co = checkout
-	d = diff
-	l = log --oneline --graph --all --decorate
+	a = commit --amend --no-edit
+	l = log --all --decorate --graph --oneline
 	s = status --short
 	r = rebase -i --root
-	undo = reset --soft HEAD~1
+	u = reset --soft HEAD~1
 
 [core]
+	editor = ~/.cargo/bin/hx
 	pager = delta
 
 [credential "https://github.com"]
-	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
 
 [credential "https://gist.github.com"]
-	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
 
 [delta]
@@ -33,11 +27,17 @@
 [interactive]
 	diffFilter = delta --color-only
 
+[log]
+	abbrevCommit = true
+
 [merge]
 	conflictstyle = zdiff3
 
 [push]
 	autoSetupRemote = true
+
+[rebase]
+	autoStash = true
 
 [user]
 	name = rexylic

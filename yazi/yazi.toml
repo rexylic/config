@@ -6,8 +6,18 @@ sort_dir_first = true
 sort_sensitive = true
 
 [[open.prepend_rules]]
+url = "*/"
+use = "dir"
+
+[[open.prepend_rules]]
 url = "*.pdf"
 use = "view"
+
+[[opener.dir]]
+block = false
+desc = "Open project in Codium"
+orphan = true
+run = "codium %S"
 
 [[opener.edit]]
 block = true

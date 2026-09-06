@@ -1,7 +1,7 @@
 [mgr]
-ratio = [3, 4, 5]
-scrolloff = 10
-sort_by = "alphabetical"
+ratio          = [3, 4, 5]
+scrolloff      = 10
+sort_by        = "alphabetical"
 sort_dir_first = true
 sort_sensitive = true
 
@@ -14,55 +14,55 @@ url = "*.pdf"
 use = "view"
 
 [[opener.dir]]
-block = false
-desc = "Open project in Codium"
+block  = false
+desc   = "Open project in Codium"
 orphan = true
-run = "codium %S"
+run    = "codium %S"
 
 [[opener.edit]]
-block = true
-desc = "Edit file with default editor"
+block  = true
+desc   = "Edit file with default editor"
 orphan = false
-run = "hx %s"
+run    = "hx %s"
 
 [[opener.edit]]
-block = false
-desc = "Edit file with TextEdit"
+block  = false
+desc   = "Edit file with TextEdit"
 orphan = true
-run = "open -a TextEdit %s"
+run    = "open -a TextEdit %s"
 
 [[opener.play]]
-block = false
-desc = "Play media using MPV"
+block  = false
+desc   = "Play media using MPV"
 orphan = true
-run = "mpv %s"
+run    = "mpv %s"
 
 [[opener.play]]
-block = false
-desc = "Play media using Apple Music"
+block  = false
+desc   = "Play media using Apple Music"
 orphan = true
-run = "open -a Music %s"
+run    = "open -a Music %s"
 
 [[opener.play]]
-block = false
-desc = "Play media using IINA"
+block  = false
+desc   = "Play media using IINA"
 orphan = true
-run = "iina %s"
+run    = "iina %s"
 
 [[opener.play]]
-block = false
-desc = "Play music using IINA"
+block  = false
+desc   = "Play music using IINA"
 orphan = true
-run = "iina --music-mode %s"
+run    = "iina --music-mode %s"
 
 [[opener.view]]
-block = false
-desc = "View PDF file in Skim"
+block  = false
+desc   = "View PDF file in Skim"
 orphan = true
-run = "open -a Skim %s"
+run    = "open -a Skim %s"
 
 [preview]
 max_height = 800
-max_width = 800
-tab_size = 2
-wrap = "yes"
+max_width  = 800
+tab_size   = 2
+wrap       = "yes"

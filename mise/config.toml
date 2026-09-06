@@ -8,6 +8,6 @@ HELIX_RUNTIME = "{{env.HOME}}/Code/rs/helix/runtime/"
 [tools]
 go = "latest"
 ruby = "latest"
-rust = "stable"
+rust = "latest"
 typst = "latest"
 zig = "latest"

@@ -3,6 +3,14 @@ name        = "html"
 auto-format = false
 
 [[language]]
+name        = "markdown"
+auto-format = false
+
+[language.formatter]
+command = "rumdl"
+args    = ["fmt", "-", "--silent"]
+
+[[language]]
 name        = "python"
 auto-format = true
 

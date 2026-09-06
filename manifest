@@ -131,6 +131,7 @@ python@3.14 3.14.7
 readline 8.3.3
 ripgrep 15.2.0
 rubberband 4.0.0
+ruff 0.16.6
 rumdl 0.2.67
 sdl2-compat 2.32.72
 sdl3 3.4.16
@@ -144,6 +145,7 @@ tesseract 5.5.3
 tinymist 0.15.6
 tombi 1.5.2
 tree 2.3.2
+ty 0.0.78
 uchardet 0.0.8
 uv 0.12.10
 vapoursynth 79

@@ -39,6 +39,7 @@ HELIX_RUNTIME = "{{env.HOME}}/Code/rs/helix/runtime/"
 
 [tools]
 age = "latest"
+'aqua:peteretelej/tree' = "latest"
 'aqua:walles/moor' = "latest"
 cargo-binstall = "latest"
 'cargo:krokiet' = "latest"

@@ -6,8 +6,9 @@ dark  = "wolf-alabaster-dark"
 auto-pairs       = false
 bufferline       = "multiple"
 color-modes      = true
-gutters          = []
+cursorline       = true
 indent-heuristic = "simple"
+line-number      = "relative"
 scrolloff        = 10
 true-color       = true
 
@@ -16,9 +17,8 @@ insert = "bar"
 select = "underline"
 
 [editor.indent-guides]
-character   = "╎"
-render      = true
-skip-levels = 1
+character = "╎"
+render    = true
 
 [editor.lsp]
 display-progress-messages = true

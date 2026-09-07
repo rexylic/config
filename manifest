@@ -6,11 +6,13 @@ bzip2 1.0.8
 ca-certificates 2026-08-13
 cairo 1.18.4
 certifi 2026.7.22
+cffi 2.1.1
 curl 8.22.0
 cyrus-sasl 2.1.28_2
 dav1d 1.5.4
 deno 2.9.6
 dua-cli 2.44.0
+exif 0.6.22
 expat 2.8.4
 eza 0.23.5
 fd 10.5.0
@@ -54,6 +56,7 @@ libbluray 1.5.0
 libdatrie 0.2.14
 libde265 1.1.2
 libedit 20260512-3.1
+libexif 0.6.26
 libffi 3.8.0
 libgcrypt 1.12.3
 libgit2 1.9.7
@@ -94,7 +97,9 @@ libxext 1.3.7
 libxml2 2.15.4
 libxrender 0.9.12
 little-cms2 2.19.1
+lld@21 21.1.8_1
 llhttp 9.4.3
+llvm@21 21.1.8
 luajit 2.1.1788460057
 lz4 1.10.0
 lzo 2.10
@@ -126,7 +131,9 @@ perl 5.44.0
 pinentry 1.3.3
 pixman 0.46.4
 poppler 26.09.0
+popt 1.19
 psutils 3.3.16_2
+pycparser 3.0
 python@3.14 3.14.7
 readline 8.3.3
 ripgrep 15.2.0
@@ -149,6 +156,7 @@ ty 0.0.78
 uchardet 0.0.8
 uv 0.12.10
 vapoursynth 79
+vscodium 1.126.04524 (cask)
 vulkan-headers 1.4.357.0
 vulkan-loader 1.4.357.0
 webp 1.6.0
@@ -157,7 +165,9 @@ x265 4.3
 xorgproto 2025.1
 xz 5.8.3
 yazi 26.9.1
-yt-dlp 2026.8.19
+yt-dlp 2026.8.19_1
+zig 0.16.0_1
 zimg 3.0.6
+zls 0.16.0
 zoxide 0.10.0
 zstd 1.5.7_1

@@ -1,6 +1,6 @@
 [theme]
-light = "wolf-alabaster-light"
-dark  = "wolf-alabaster-dark"
+light = "adwaita-light"
+dark  = "adwaita-dark"
 
 [editor]
 auto-pairs       = false

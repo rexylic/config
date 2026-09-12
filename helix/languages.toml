@@ -24,4 +24,4 @@ auto-format = true
 
 [[language]]
 name        = "zig"
-auto-format = true
+auto-format = false

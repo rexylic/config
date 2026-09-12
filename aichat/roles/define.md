@@ -1,0 +1,1 @@
+/Users/rfang/Library/Application Support/aichat/roles/define.md

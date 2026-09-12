@@ -1,3 +1,3 @@
 function fish_greeting
-    fortune | cowsay -rW 80
+    fortune
 end

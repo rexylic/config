@@ -4,7 +4,7 @@ auto-format = false
 
 [[language]]
 name        = "markdown"
-auto-format = false
+auto-format = true
 
 [language.formatter]
 command = "rumdl"

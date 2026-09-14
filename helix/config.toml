@@ -9,6 +9,7 @@ color-modes      = true
 cursorline       = true
 indent-heuristic = "simple"
 line-number      = "relative"
+rulers           = [81, 121]
 scrolloff        = 10
 true-color       = true
 
@@ -39,21 +40,20 @@ right  = ["position", "file-base-name"]
 'X' = "extend_line_above"
 
 [keys.normal.'`']
-'`' = "@o:::<esc>"
-'-' = "@o<ret>--------------------<esc>"
-'l' = "@o::: left<esc>"
-'c' = "@o::: center<esc>"
-'a' = "@o::: attribution<esc>"
-'p' = "@o::: pagebreak<esc>"
-'r' = "@o::: right<esc>"
-'v' = "@o::: vspace<esc>"
+'`' = ":bn"
+'q' = ":bc"
 
 [keys.normal."\\"]
+'-' = "@o<ret>--------------------<esc>"
+'`' = "@o:::<esc>"
+'a' = "@o::: attribution<esc>"
+'c' = "@o::: center<esc>"
 'd' = "@ghf:ddvglms\"gh"
+'l' = "@o::: left<esc>"
+'p' = "@o::: pagebreak<esc>"
+'r' = "@o::: right<esc>"
 't' = "@i| <esc>t:ms*ms*gh"
-'b' = "@ms*ms*"
-'i' = "@ms*"
-'s' = "@ms~ms~"
+'v' = "@o::: vspace<esc>"
 
 [keys.select]
 '=' = ":reflow"

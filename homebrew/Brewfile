@@ -14,6 +14,8 @@ brew "fortune"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # Statically typed language for the Erlang VM
 brew "gleam"
 # Simple zero-configuration command-line HTTP server

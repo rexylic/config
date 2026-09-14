@@ -1,0 +1,52 @@
+# Simple, modern, secure file encryption
+brew "age"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# View disk space usage and delete unwanted data, fast
+brew "dua-cli"
+# Read, write, modify, and display EXIF data on the command-line
+brew "exif"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Infamous electronic fortune-cookie generator
+brew "fortune"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Statically typed language for the Erlang VM
+brew "gleam"
+# Simple zero-configuration command-line HTTP server
+brew "http-server"
+# Unix documentation system
+brew "man-db"
+# Mac App Store command-line interface
+brew "mas"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
+mas "ColorSlurp", id: 1287239339
+mas "Developer", id: 640199958
+mas "Dinkus", id: 6799480413
+mas "Dropover", id: 1355679052
+mas "Keka", id: 470158793
+mas "Keynote", id: 361285480
+mas "MediaInfo", id: 510620098
+mas "Noir", id: 1592917505
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "WeChat", id: 836500024
+mas "WhatsApp", id: 310633997
+mas "WireGuard", id: 1451685025
+cargo "bat"
+cargo "dua-cli"
+cargo "helix-term"
+cargo "ripgrep"
+cargo "yazi-build"

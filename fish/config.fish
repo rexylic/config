@@ -1,10 +1,8 @@
-# Add nanobrew paths
-fish_add_path /opt/nanobrew/prefix/bin
-fish_add_path /opt/nanobrew/prefix/lib/ruby/gems/4.0.0/bin
+# Config brew
+eval (brew shellenv)
 
 # Add local paths
 fish_add_path ~/.local/bin
-fish_add_path ~/.local/share/gem/ruby/4.0.0/bin
 
 # Add cargos
 fish_add_path ~/.cargo/bin

@@ -1,3 +1,3 @@
-function nb-rc --wraps='nb remove --cask' --description 'alias nb-rc nb remove --cask'
+function nb-rc -w='nb remove --cask' -d 'Remove cask'
     nb remove --cask $argv
 end

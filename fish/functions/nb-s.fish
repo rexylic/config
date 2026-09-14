@@ -1,3 +1,3 @@
-function nb-s --wraps='nb search' --description 'alias nb-s nb search'
+function nb-s -w='nb search' -d 'Search for formulae and casks'
     nb search $argv
 end

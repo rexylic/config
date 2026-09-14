@@ -1,3 +1,3 @@
-function nb-r --wraps='nb remove' --description 'alias nb-r nb remove'
+function nb-r -w='nb remove' -d 'Remove formula'
     nb remove $argv
 end

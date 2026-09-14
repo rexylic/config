@@ -1,3 +1,3 @@
-function v --wraps=hx --description 'alias v hx'
+function v -w=hx -d 'Opens Helix'
     hx $argv
 end

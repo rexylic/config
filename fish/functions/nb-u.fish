@@ -1,3 +1,3 @@
-function nb-u --wraps='nb update && nb upgrade' --description 'alias nb-u nb update && nb upgrade'
+function nb-u -d 'Update and upgrade formulae'
     nb update && nb upgrade $argv
 end

@@ -1,12 +1,6 @@
 # Config brew
 eval (brew shellenv)
 
-# Add local paths
-fish_add_path ~/.local/bin
-
-# Add cargos
-fish_add_path ~/.cargo/bin
-
 # Interactive session only
 if status is-interactive
     # Fuzzy finder binding

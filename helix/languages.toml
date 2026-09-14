@@ -5,18 +5,16 @@ auto-format = false
 [[language]]
 name        = "markdown"
 auto-format = true
-
-[language.formatter]
-command = "rumdl"
-args    = ["fmt", "-", "--silent"]
+formatter   = { command = "rumdl", args = ["fmt", "-", "--silent"] }
 
 [[language]]
 name        = "python"
 auto-format = true
 
 [[language]]
-name        = "ruby"
-auto-format = true
+name             = "ruby"
+auto-format      = true
+language-servers = ["ruby-lsp"]
 
 [[language]]
 name        = "toml"
@@ -25,3 +23,7 @@ auto-format = true
 [[language]]
 name        = "zig"
 auto-format = false
+
+[language-server.ruby-lsp]
+command = "ruby-lsp"
+config  = { diagnostics = true, formatting = true }

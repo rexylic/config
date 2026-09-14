@@ -1,10 +1,20 @@
-# Config brew
+# Brew
 eval (brew shellenv)
+
+# Paths
+fish_add_path "$(gem env gemdir)/bin"
+fish_add_path ~/.cargo/bin
+fish_add_path ~/.local/bin
+
+# Variables
+set EDITOR hx
+set PAGER less
+set XDG_CONFIG_HOME ~/.config
 
 # Interactive session only
 if status is-interactive
     # Fuzzy finder binding
-    fzf_configure_bindings --directory=ctrl-f
+    fzf_configure_bindings --directory=ctrl-y
 
     # Set prompt icon
     set tide_character_icon '$'

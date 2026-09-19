@@ -1,6 +1,6 @@
 [theme]
-light = "adwaita-light"
-dark  = "adwaita-dark"
+light = "wolf-alabaster-light"
+dark  = "wolf-alabaster-dark"
 
 [editor]
 auto-pairs       = false
@@ -9,7 +9,6 @@ color-modes      = true
 cursorline       = true
 indent-heuristic = "simple"
 line-number      = "relative"
-rulers           = [81, 121]
 scrolloff        = 10
 true-color       = true
 

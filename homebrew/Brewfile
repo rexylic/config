@@ -1,7 +1,15 @@
 # Simple, modern, secure file encryption
 brew "age"
+# All-in-one AI-Powered CLI Chat & Copilot
+brew "aichat"
+# Download with resuming and segmented downloading
+brew "aria2"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
+brew "clang-format"
+# Dictionary Server Protocol (RFC2229) client
+brew "dict"
 # View disk space usage and delete unwanted data, fast
 brew "dua-cli"
 # Read, write, modify, and display EXIF data on the command-line
@@ -16,24 +24,48 @@ brew "fzf"
 brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# CLI code-typing game that turns your source code into typing challenges
+brew "gittype"
 # Statically typed language for the Erlang VM
 brew "gleam"
 # Simple zero-configuration command-line HTTP server
 brew "http-server"
+# Next generation, high-performance debugger
+brew "lldb"
 # Unix documentation system
 brew "man-db"
 # Mac App Store command-line interface
 brew "mas"
+# Nice to use pager for humans
+brew "moor"
 # Media player based on MPlayer and mplayer2
 brew "mpv"
+# Painless compression and decompression for your terminal
+brew "ouch"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Pager/text based browser
+brew "w3m"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
+# Language Server for Zig
+brew "zls"
+# Download manager
+cask "jdownloader"
+# Open-source download manager
+cask "motrix"
+# Keyboard configurator for NuPhy devices
+cask "nuphyio"
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Dinkus", id: 6799480413
@@ -51,4 +83,7 @@ cargo "bat"
 cargo "dua-cli"
 cargo "helix-term"
 cargo "ripgrep"
+cargo "rustlings"
 cargo "yazi-build"
+uv "ruff"
+uv "ty"

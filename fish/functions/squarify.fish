@@ -1,4 +1,4 @@
-function squarify
+function squarify -d "Add white border to image to make it square"
     set margin 128
 
     for in in $argv

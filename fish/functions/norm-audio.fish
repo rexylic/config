@@ -1,4 +1,4 @@
-function norm-audio
+function norm-audio -d "Normalize audio volume"
     if test (count $argv) -lt 1
         echo "Usage: norm-audio <input> [output] [target_lufs]"
         return 1

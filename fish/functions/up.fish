@@ -1,4 +1,4 @@
-function up
+function up -d "Go up directories"
     if test (count $argv) -eq 0
         cd ..
         return

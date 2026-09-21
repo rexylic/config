@@ -1,3 +1,3 @@
-function peek --wraps='tee /dev/stderr' --description 'alias peek tee /dev/stderr'
+function peek -w 'tee /dev/stderr' -d 'alias peek tee /dev/stderr'
     tee /dev/stderr $argv
 end

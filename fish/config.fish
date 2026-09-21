@@ -14,9 +14,4 @@ set XDG_CONFIG_HOME ~/.config
 
 # Interactive session only
 if status is-interactive
-    # Fuzzy finder binding
-    fzf_configure_bindings --directory=ctrl-y
-
-    # Set prompt icon
-    set tide_character_icon '$'
 end

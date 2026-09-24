@@ -14,4 +14,5 @@ set XDG_CONFIG_HOME ~/.config
 
 # Interactive session only
 if status is-interactive
+    set VIRTUAL_ENV_DISABLE_PROMPT 1
 end

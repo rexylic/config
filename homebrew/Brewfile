@@ -48,24 +48,37 @@ brew "pandoc"
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Markdown Linter and Formatter written in Rust
+brew "rumdl"
+# HTML Language Server & Templating Language Library
+brew "superhtml"
 # Very fast implementation of tldr in Rust
 brew "tealdeer"
+# Services for Typst
+brew "tinymist"
+# Markup-based typesetting system
+brew "typst"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Pager/text based browser
 brew "w3m"
+# Utilities to create and convert Web Open Font File (WOFF) files
+brew "woff2"
+# Extensible command-line tool to format YAML files
+brew "yamlfmt"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
 # Language Server for Zig
 brew "zls"
-# Download manager
-cask "jdownloader"
+cask "font-atkinson-hyperlegible-next"
+# Open-source desktop AI agent
+cask "hermes-desktop"
+# Multi-platform web browser
+cask "microsoft-edge"
 # Open-source download manager
 cask "motrix"
-# Keyboard configurator for NuPhy devices
-cask "nuphyio"
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Dinkus", id: 6799480413
@@ -85,5 +98,7 @@ cargo "helix-term"
 cargo "ripgrep"
 cargo "rustlings"
 cargo "yazi-build"
+uv "browser-use"
 uv "ruff"
 uv "ty"
+npm "vscode-langservers-extracted"

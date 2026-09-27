@@ -1,4 +1,4 @@
-function g -d 'github shorthand'
+function g -d 'Git shorthand'
     argparse p/push a/amend -- $argv
     or return
 

@@ -8,9 +8,10 @@ fish_add_path ~/.cargo/bin
 fish_add_path ~/.local/bin
 
 # Variables
-set EDITOR hx
-set PAGER moor --no-linenumbers --tab-size=2 --wrap
-set XDG_CONFIG_HOME ~/.config
+set -x EDITOR hx
+set -x MOOR --no-linenumbers --no-statusbar --reformat --tab-size=2 --wrap
+set -x PAGER moor
+set -x XDG_CONFIG_HOME ~/.config
 
 # Interactive session only
 if status is-interactive

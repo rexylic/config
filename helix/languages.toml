@@ -22,7 +22,7 @@ auto-format = true
 
 [[language]]
 name        = "zig"
-auto-format = false
+auto-format = true
 
 [language-server.ruby-lsp]
 command = "ruby-lsp"

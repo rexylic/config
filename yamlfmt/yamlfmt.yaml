@@ -1,5 +1,4 @@
 formatter:
   type: basic
   scan_folded_as_literal: true
-  indentless_arrays: true
   force_quote_style: single

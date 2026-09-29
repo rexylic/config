@@ -14,52 +14,49 @@ url = "*.pdf"
 use = "view"
 
 [[opener.dir]]
-block  = false
 desc   = "Open project in Codium"
-orphan = true
 run    = "codium %S"
+orphan = true
 
 [[opener.edit]]
-block  = true
-desc   = "Edit file with default editor"
-orphan = false
-run    = "hx %s"
+desc  = "Edit file with default editor"
+run   = "hx %s"
+block = true
 
 [[opener.edit]]
-block  = false
 desc   = "Edit file with TextEdit"
-orphan = true
 run    = "open -a TextEdit %s"
-
-[[opener.play]]
-block  = false
-desc   = "Play media using MPV"
 orphan = true
-run    = "mpv %s"
 
 [[opener.play]]
-block  = false
 desc   = "Play media using Apple Music"
-orphan = true
 run    = "open -a Music %s"
+orphan = true
 
 [[opener.play]]
-block  = false
 desc   = "Play media using IINA"
-orphan = true
 run    = "iina %s"
+orphan = true
 
 [[opener.play]]
-block  = false
-desc   = "Play music using IINA"
+desc   = "Play media using MPV"
+run    = "mpv %s"
 orphan = true
+
+[[opener.play]]
+desc   = "Play music using IINA"
 run    = "iina --music-mode %s"
+orphan = true
 
 [[opener.view]]
-block  = false
-desc   = "View PDF file in Skim"
+desc   = "View PDF file in Preview"
+run    = "open -a Preview %s"
 orphan = true
+
+[[opener.view]]
+desc   = "View PDF file in Skim"
 run    = "open -a Skim %s"
+orphan = true
 
 [preview]
 max_height = 800

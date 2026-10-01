@@ -1,0 +1,41 @@
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+model: orc:glm-flash
+cmd_prelude: role:cmd
+repl_prelude: role:repl
+clients:
+  - name: orc # open router custom
+    type: openai-compatible
+    models:
+      - name: astra
+        real_name: ~openai/gpt-astra-latest
+      - name: ds-flash
+        real_name: ~deepseek/deepseek-flash-latest
+      - name: ds-pro
+        real_name: ~deepseek/deepseek-pro-latest
+      - name: fable
+        real_name: ~anthropic/claude-fable-latest
+      - name: gemini-flash
+        real_name: ~google/gemini-flash-latest
+      - name: glm
+        real_name: ~z-ai/glm-latest
+      - name: glm-flash
+        real_name: ~z-ai/glm-flash-latest
+      - name: haiku
+        real_name: ~anthropic/claude-haiku-latest
+      - name: kimi
+        real-name: ~moonshotai/kimi-latest
+      - name: luna
+        real_name: ~openai/gpt-luna-latest
+      - name: opus
+        real_name: ~anthropic/claude-opus-latest
+      - name: sol
+        real_name: ~openai/gpt-sol-latest
+      - name: sonnet
+        real_name: ~anthropic/claude-sonnet-latest
+      - name: terra
+        real_name: ~openai/gpt-terra-latest
+    patch:
+      chat_completions:
+        '.*':
+          body:
+            reasoning_effort: none
